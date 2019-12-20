@@ -1,0 +1,12 @@
+errors:
+  handling:
+    mappings:
+      HELLO_WORLD_400:
+        message: "Hello,  World of 400's!"
+        status: "BAD_REQUEST"
+      HELLO_WORLD_500:
+        message: "Hello,  World of 500's!"
+        status: 500
+    default-error-status: internal_server_error
+    default-message: "Unable to get a response. =("
+
